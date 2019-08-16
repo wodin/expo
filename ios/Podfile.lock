@@ -859,6 +859,8 @@ PODS:
     - UMFileSystemInterface
   - EXRandom (7.0.0):
     - UMCore
+  - EXScreenOrientation (1.0.0):
+    - UMCore
   - EXSecureStore (7.0.0):
     - UMCore
   - EXSegment (7.0.0):
@@ -1674,6 +1676,7 @@ DEPENDENCIES:
   - EXPermissions (from `../packages/expo-permissions/ios`)
   - EXPrint (from `../packages/expo-print/ios`)
   - EXRandom (from `../packages/expo-random/ios`)
+  - EXScreenOrientation (from `../packages/expo-screen-orientation/ios`)
   - EXSecureStore (from `../packages/expo-secure-store/ios`)
   - EXSegment (from `../packages/expo-analytics-segment/ios`)
   - EXSensors (from `../packages/expo-sensors/ios`)
@@ -2306,6 +2309,9 @@ EXTERNAL SOURCES:
   EXRandom:
     :path: !ruby/object:Pathname
     path: "../packages/expo-random/ios"
+  EXScreenOrientation:
+    :path: !ruby/object:Pathname
+    path: "../packages/expo-screen-orientation/ios"
   EXSecureStore:
     :path: !ruby/object:Pathname
     path: "../packages/expo-secure-store/ios"
@@ -2669,6 +2675,7 @@ SPEC CHECKSUMS:
   EXPermissions: a8da2bebf970af22e4714cc24fc5fab124ee315c
   EXPrint: 0b053010f2b8ac431cb6685e8764e1bcb242054e
   EXRandom: 573a6b84af755c0fffc0dd744e25aa73f69680fb
+  EXScreenOrientation: 64d2a99623fc4bfa6cb3163eb63a2d2d75ee98ab
   EXSecureStore: bf94958c936b2b9e3813509d2e7e6b8a263d40df
   EXSegment: 4e56b4e62e245060b7b8fccaca389026e482ec90
   EXSensors: 4e5fc288684fad094d16f6285b583b9194113bad
