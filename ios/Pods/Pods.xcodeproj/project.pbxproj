@@ -3063,10 +3063,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = 0BA7CE0C1EC364C7E577AA9BEABF5FE4 /* ZXingObjC */;
+					ProjectRef = 278061CDD0EED26A10B0F4AE386B4978 /* EXBarCodeScanner */;
 				},
 				{
-					ProjectRef = 278061CDD0EED26A10B0F4AE386B4978 /* EXBarCodeScanner */;
+					ProjectRef = 0BA7CE0C1EC364C7E577AA9BEABF5FE4 /* ZXingObjC */;
 				},
 				{
 					ProjectRef = 15DC52F708002C38D161B272636B3367 /* ABI33_0_0 */;
