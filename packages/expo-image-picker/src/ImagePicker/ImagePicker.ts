@@ -1,7 +1,12 @@
 import { UnavailabilityError } from '@unimodules/core';
 
 import ExponentImagePicker from './ExponentImagePicker';
-import { ImagePickerResult, MediaTypeOptions, ImagePickerOptions, ExportPresets } from './ImagePicker.types';
+import {
+  ImagePickerResult,
+  MediaTypeOptions,
+  ImagePickerOptions,
+  ExportPresets,
+} from './ImagePicker.types';
 
 export async function launchImageLibraryAsync(
   options: ImagePickerOptions = {}
