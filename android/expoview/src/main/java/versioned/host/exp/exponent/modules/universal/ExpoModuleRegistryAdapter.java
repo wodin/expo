@@ -69,6 +69,7 @@ public class ExpoModuleRegistryAdapter extends ModuleRegistryAdapter implements 
     for (InternalModule internalModule : mReactAdapterPackage.createInternalModules(reactContext)) {
       moduleRegistry.registerInternalModule(internalModule);
     }
+
     // Overriding ScopedUIManagerModuleWrapper from ReactAdapterPackage
     moduleRegistry.registerInternalModule(new ScopedUIManagerModuleWrapper(reactContext));
 
