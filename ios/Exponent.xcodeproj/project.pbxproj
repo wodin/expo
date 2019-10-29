@@ -26,9 +26,6 @@
 		2596F06B22201A9500DEEFF9 /* EXScopedFileSystemModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2596F06A22201A9400DEEFF9 /* EXScopedFileSystemModule.m */; };
 		2CFE1F25CD524A7ABFCAA366 /* RNSharedElementNodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80598B49D2DB4720B1935D89 /* RNSharedElementNodeManager.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		2F7A50E095D6492596EA0B26 /* RNSharedElementNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D29BDFCEEA8F4701829ADCD1 /* RNSharedElementNode.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		31239A2522AE91EB003BFCAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31239A2422AE91EB003BFCAF /* GoogleService-Info.plist */; };
-		2CFE1F25CD524A7ABFCAA366 /* RNSharedElementNodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80598B49D2DB4720B1935D89 /* RNSharedElementNodeManager.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		2F7A50E095D6492596EA0B26 /* RNSharedElementNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D29BDFCEEA8F4701829ADCD1 /* RNSharedElementNode.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		31361A5A2260B2F600662769 /* EXScopedSecureStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 31361A592260B2F600662769 /* EXScopedSecureStore.m */; };
 		31361A5D2260B9A400662769 /* EXScopedAmplitude.m in Sources */ = {isa = PBXBuildFile; fileRef = 31361A5C2260B9A400662769 /* EXScopedAmplitude.m */; };
 		31361A612261C65A00662769 /* EXPermissionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31361A602261C65A00662769 /* EXPermissionsManager.m */; };
@@ -350,20 +347,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				EDCF2D4A22C6A2EB00D1809C /* ExpoNotificationServiceExtension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		ED1AA0AB22C5329300C7D0CE /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -552,6 +535,7 @@
 		31E6D47D20B8451B0082B09F /* EXSensorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXSensorManager.m; sourceTree = "<group>"; };
 		31E6D47F20B845830082B09F /* EXSensorsManagerBinding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXSensorsManagerBinding.m; sourceTree = "<group>"; };
 		31E6D48120B845920082B09F /* EXSensorsManagerBinding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXSensorsManagerBinding.h; sourceTree = "<group>"; };
+		3451876A2368FE9E008C4171 /* cp-bundle-resources-conditionally.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "cp-bundle-resources-conditionally.sh"; sourceTree = "<group>"; };
 		36BC76754E88A8F5C6E57DDD /* Pods-Exponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-Exponent/Pods-Exponent.release.xcconfig"; sourceTree = "<group>"; };
 		391920741A374C4AB61BDB48 /* RNSharedElementStyle.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; path = RNSharedElementStyle.m; sourceTree = "<group>"; };
 		3C3C339320E24E7D000F8B92 /* EXSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXSplashScreen.h; sourceTree = "<group>"; };
@@ -976,10 +960,6 @@
 		E6E68AB99C5B4BA58B372F19 /* RNCWebViewManager.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; path = RNCWebViewManager.m; sourceTree = "<group>"; };
 		EB9676B1E402ED70AEB10A7A /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDCF2D4222C6A2EB00D1809C /* ExpoNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExpoNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDCF2D4422C6A2EB00D1809C /* ExNotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExNotificationService.h; sourceTree = "<group>"; };
-		EDCF2D4522C6A2EB00D1809C /* ExNotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExNotificationService.m; sourceTree = "<group>"; wrapsLines = 1; };
-		EDCF2D4722C6A2EB00D1809C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDCF2D4222C6A2EB00D1809C /* ExpoNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExpoNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11E530D21601058007ACF56 /* EXHeadlessAppRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXHeadlessAppRecord.m; sourceTree = "<group>"; };
 		F11E530E21601058007ACF56 /* EXHeadlessAppLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXHeadlessAppLoader.h; sourceTree = "<group>"; };
 		F11E530F21601059007ACF56 /* EXHeadlessAppRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXHeadlessAppRecord.h; sourceTree = "<group>"; };
@@ -1375,7 +1355,6 @@
 				B51333411CE649FE00E9FC9E /* ExponentIntegrationTests */,
 				F12A1AB722ABD461008542C6 /* Build-Phases */,
 				B505BA0F20CAF77A0046ACFB /* Tests */,
-				EDCF2D4322C6A2EB00D1809C /* ExpoNotificationServiceExtension */,
 				3050F5A98E56E9379C36ABD2 /* Frameworks */,
 				A17682721BE42C7F0057BBF2 /* Libraries */,
 				78CEE2C11ACD07D70095B124 /* Products */,
@@ -2196,6 +2175,7 @@
 				F12A1ABA22ABD6ED008542C6 /* cleanup-dynamic-macros.sh */,
 				F12A1AB822ABD4BA008542C6 /* generate-dynamic-macros.sh */,
 				F12A1ABC22ABE400008542C6 /* run-fabric.sh */,
+				3451876A2368FE9E008C4171 /* cp-bundle-resources-conditionally.sh */,
 			);
 			path = "Build-Phases";
 			sourceTree = "<group>";
@@ -2440,7 +2420,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "SRC_FILE=\"${PROJECT_DIR}/Exponent/Supporting/GoogleService-Info.plist\"\nDST_FILE=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\nif [ -f $SRC_FILE ]; then\n    cp -r $SRC_FILE $DST_FILE \nfi\n\n";
+			shellScript = "$SRCROOT/Build-Phases/cp-bundle-resources-conditionally.sh\n\n";
 		};
 		78CEE2F21ACDF25E0095B124 /* Generate Dynamic Macros */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2860,14 +2840,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B51333431CE649FE00E9FC9E /* ExponentIntegrationTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDCF2D3E22C6A2EB00D1809C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EDCF2D4622C6A2EB00D1809C /* ExNotificationService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
