@@ -85,7 +85,7 @@ const vendoredModulesConfig: { [key: string]: VendoredModuleConfig } = {
     warnings: [
       `NOTE: Any files in ${chalk.magenta(
         'com.facebook.react'
-      )} will not be updated -- you'll need to add these to ReactAndroid manually!`,
+      )} will not be updated -- you'll need to add these to expoview manually!`,
     ],
   },
   'react-native-screens': {
