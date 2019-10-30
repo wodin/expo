@@ -1,4 +1,7 @@
+import path from 'path';
 import chalk from 'chalk';
+
+import { IOS_DIR } from '../../Constants';
 
 interface TransformConfig {
   input: string;
@@ -188,7 +191,7 @@ async function runTransformPipelineIOSAsync({ targetPath, input, versionPrefix }
   }
 
   if (matches.length > 0) {
-    console.log(`Post-transforming ${chalk.yellow(targetPath)}:`);
+    console.log(`Post-transforming ${chalk.yellow(path.relative(IOS_DIR, targetPath))}:`);
 
     for (const match of matches) {
       console.log(
