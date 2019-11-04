@@ -16,6 +16,7 @@ This is the log of notable changes to the Expo client that are developer-facing.
 
 - Added `MediaLibrary.saveToAssetsAsync` function that can work without `CAMERA_ROLL` permission. ([#5678](https://github.com/expo/expo/pull/5678) by [@lukmccall](https://github.com/lukmccall))
 - Added support for `Speech.getAvailableVoicesAsync()` on Android. ([#5887](f0a9d8ce87451dbce8c0a309ff917c8b26472861) by [@Mitch528](https://github.com/Mitch528))
+- Added support for `react-native-appearance` on Android. ([#6162](https://github.com/expo/expo/pull/6162) by [@bbarthec](https://github.com/bbarthec))
 
 ### 🐛 Bug fixes
 
