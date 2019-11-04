@@ -3908,8 +3908,6 @@ CACHE_KEYS:
       - "../../packages/expo-ads-facebook/ios/EXAdsFacebook/EXBannerView.m"
       - "../../packages/expo-ads-facebook/ios/EXAdsFacebook/EXBannerViewManager.h"
       - "../../packages/expo-ads-facebook/ios/EXAdsFacebook/EXBannerViewManager.m"
-      - "../../packages/expo-ads-facebook/ios/EXAdsFacebook/EXFacebookAdHelper.h"
-      - "../../packages/expo-ads-facebook/ios/EXAdsFacebook/EXFacebookAdHelper.m"
       - "../../packages/expo-ads-facebook/ios/EXAdsFacebook/EXInterstitialAdManager.h"
       - "../../packages/expo-ads-facebook/ios/EXAdsFacebook/EXInterstitialAdManager.m"
       - "../../packages/expo-ads-facebook/ios/EXAdsFacebook/EXNativeAdManager.h"
@@ -4921,8 +4919,8 @@ CACHE_KEYS:
       - nanopb/encode (0.3.901)
   Pods-Exponent:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 606c7b51cf8a63015b2fb18623b22908
-      Release: 606c7b51cf8a63015b2fb18623b22908
+      Debug: 2badc316141e407f94338e969af78bd1
+      Release: 2badc316141e407f94338e969af78bd1
   Pods-ExponentIntegrationTests:
     BUILD_SETTINGS_CHECKSUM:
       Debug: e4b57f9f76a7e235b595f1ee71ebd531
