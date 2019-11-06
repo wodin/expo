@@ -29,7 +29,6 @@
       "config": "metro.config.js"
     },
     "ios": {
-      "userInterfaceStyle": "automatic",
       "supportsTablet": true,
       "bundleIdentifier": "host.exp.exponent",
       "publishBundlePath": "../ios/Exponent/Supporting/kernel.ios.bundle"
@@ -38,6 +37,7 @@
       "package": "host.exp.exponent",
       "publishBundlePath": "../android/app/src/main/assets/kernel.android.bundle"
     },
+    "userInterfaceStyle": "automatic",
     "scheme": "exp",
     "extra": {
       "amplitudeApiKey": "081e5ec53f869b440b225d5e40ec73f9"
